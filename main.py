@@ -16,7 +16,7 @@ DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 START_TEXT = """Hello {},
 I am an under 5MB media or file to telegra.ph link uploader bot.
 
-Made by @FayasNoushad"""
+Made by @The_Professor_100_BotZ"""
 
 HELP_TEXT = """**About Me**
 
@@ -24,16 +24,16 @@ HELP_TEXT = """**About Me**
 - Then I will download it
 - I will then upload it to the telegra.ph link
 
-Made by @FayasNoushad"""
+Made by @The_Professor_100_BotZ"""
 
 ABOUT_TEXT = """**About Me**
 
 - **Bot :** `Telegraph Uploader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Source :** [Click here](https://github.com/FayasNoushad/Telegraph-Uploader-Bot)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)"""
+- **Creator :** [Fayas](https://telegram.me/PR0FESS0R_MASTER_2)
+- **Channel :** [The_Professor_100_BotZ](https://t.me/The_Professor_100_BotZ)
+- **Source :** [Click here](https://github.com/Professor-100/Telegraph-Uploader-Bot)
+- **Language :** [Python3](https://t.me/The_Professor_100_BotZ)
+- **Library :** [Pyrogram](https://t.me/The_Professor_100_BotZ)"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
@@ -149,7 +149,7 @@ async def getmedia(bot, update):
                 InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
             ],
             [
-                InlineKeyboardButton(text="Join Updates Channel", url="https://telegram.me/FayasNoushad")
+                InlineKeyboardButton(text="Join Updates Channel", url="https://t.me/The_Professor_100_BotZ")
             ]
         ]
     )
